@@ -20,7 +20,7 @@ from aoc_helper import (
     search,
     tail_call,
 )
-
+print('Day 1')
 raw = aoc_helper.fetch(1, 2023)
 def parse_raw(raw: str):
     pass
@@ -39,5 +39,5 @@ p1 = part_one(data)
 p2 = part_two(data)
 
 print(f'Submitting {p1} and {p2} as solutions.')
-aoc_helper.submit(1,1,p1,2023)
-aoc_helper.submit(1,2,p2,2023)
+#aoc_helper.submit(1,1,p1,2023)
+#aoc_helper.submit(1,2,p2,2023)
